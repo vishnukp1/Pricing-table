@@ -1,0 +1,26 @@
+.right-trapezoid-container {
+    position: relative;
+    width: 22rem;
+    height: 10rem;
+    background: white;
+    margin-bottom: -6rem;
+    margin-top: -3rem;
+    overflow: hidden;
+ 
+    clip-path: polygon(0% 0%, 100% 0%, 65% 100%, 0% 100%);
+  }
+  
+  @media (min-width: 320px) and (max-width: 600px) {
+    .right-trapezoid-container {
+        position: relative;
+        width: 8rem;
+        height: 10rem;
+    
+    
+        clip-path: polygon(0% 0%, 100% 0%, 45% 100%, 0% 100%);
+      }
+      .logo-img{
+        width: 6rem;
+        margin-top: 2rem;
+      }
+  }
