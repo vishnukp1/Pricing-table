@@ -1,8 +1,8 @@
 import React from "react";
-import MainFooter from "./MainFooter";
 import "../../styles/Main.css";
 import { Link } from "react-router-dom";
 import Sidebar from "../sidebar/Sidebar";
+import MainDown from "./MainDown";
 
 const Main = () => {
   return (
@@ -19,7 +19,9 @@ const Main = () => {
             }}
           >
             <div className="mt-3">
-              <h3 className="text-bold">Choose a plan that's just right for you !</h3>
+              <h3 className="text-bold">
+                Choose a plan that's just right for you !
+              </h3>
             </div>
             <div className="btnDiv mt-3">
               <button className="regBtn btn-sm mb-2" type="submit">
@@ -196,7 +198,7 @@ const Main = () => {
               </div>
             </div>
           </section>
-          <MainFooter />
+          <MainDown />
         </div>
       </div>
     </div>

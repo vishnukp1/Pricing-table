@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import "../../styles/Main.css"
 
-function MainFooter() {
+function MainDown() {
   return (
     <Row>
       
@@ -85,4 +85,4 @@ function MainFooter() {
   );
 }
 
-export default MainFooter;
+export default MainDown;
