@@ -1,68 +1,66 @@
 .btnDiv {
-    display: flex;
-    border-radius: 25px;
-    border: 2px solid black; 
-    width: 19rem;
-    height: 2.7rem;
-  }
-  
-  .regBtn {
-    padding: 1px;
-    margin: 4px;
-    width: 9rem;
-    height: 2rem;
-    border-radius: 25px;
-    border: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    display: inline-block;
-  }
-  
-  .regBtn:hover {
-    background-color: #C9E4FF;
-  }
-  .left-list {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .forever-btn{
-    border-radius: 50px ;
-  }
-  .btn-getstart {
-width: 2rem;
-  }
-  @media (min-width: 500px) and (max-width: 850px) {
-  .main-head{
+  display: flex;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 19rem;
+  height: 2.7rem;
+}
+
+.regBtn {
+  padding: 1px;
+  margin: 4px;
+  width: 9rem;
+  height: 2rem;
+  border-radius: 25px;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  display: inline-block;
+}
+
+.regBtn:hover {
+  background-color: #c9e4ff;
+}
+.left-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+.forever-btn {
+  border-radius: 50px;
+}
+.btn-getstart {
+  width: 2rem;
+}
+@media (min-width: 500px) and (max-width: 850px) {
+  .main-head {
     display: flex !important;
     flex-direction: column !important;
   }
-  
 }
 @media (min-width: 320px) and (max-width: 500px) {
-    .main-head{
-      display: flex !important;
-      flex-direction: column !important;
-    }
-    .btnDiv {
-        
-        width: 12rem;
-        height: 2.6rem;
-      }
-      .home-section{
-        width: 28rem;
-      }
+  .main-head {
+    display: flex !important;
+    flex-direction: column !important;
   }
+  .btnDiv {
+    width: 12rem;
+    height: 2.6rem;
+  }
+  .home-section {
+    width: 28rem;
+  }
+}
 
-  .del-container {
-    position: relative;
-  }
-  
-  .del-line {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 80%;
-    height: 1.7px; 
-    background: linear-gradient(to right, red 50%, transparent 50%);
-    transform:  rotate(3deg);
-  }
+.del-container {
+  position: relative;
+}
+
+.del-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 80%;
+  height: 1.7px;
+  background: linear-gradient(to right, red 50%, transparent 50%);
+  transform: rotate(3deg);
+}
