@@ -1,9 +1,9 @@
 import React from "react";
 import { MDBCard, MDBCol, MDBRow } from "mdb-react-ui-kit";
-import MainHead from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import ".././src/components/Main/Main.css"
-import LogoHeader from "./components/Header/LogoHeader";
+import MainHead from "../components/Header/Header";
+import Main from "../components/Main/Main";
+import "../styles/Main.css"
+import LogoHeader from "../components/Header/LogoHeader";
 
 
 export default function Home() {

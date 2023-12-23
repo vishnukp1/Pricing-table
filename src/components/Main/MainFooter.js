@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col, Row, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-import "./Main.css"
+import "../../styles/Main.css"
 
 function MainFooter() {
   return (

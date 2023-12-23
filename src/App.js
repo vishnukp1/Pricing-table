@@ -1,14 +1,11 @@
-import React from 'react';
-import Home from './Home';
-import RightTrapezoid from './components/Header/LogoHeader';
+import React from "react";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div>
-    <Home />
- 
+      <Home />
     </div>
- 
   );
 };
 

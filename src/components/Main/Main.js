@@ -1,6 +1,6 @@
 import React from "react";
 import MainFooter from "./MainFooter";
-import "./Main.css";
+import "../../styles/Main.css";
 import { Link } from "react-router-dom";
 import Sidebar from "../sidebar/Sidebar";
 
