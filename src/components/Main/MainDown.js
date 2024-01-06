@@ -7,8 +7,6 @@ import "../../styles/Main.css"
 function MainDown() {
   return (
     <Row>
-      
-
       <Col md={12} lg={6}>
         <Card className="mb-4">
           <Card.Body>
