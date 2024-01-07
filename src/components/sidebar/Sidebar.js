@@ -33,7 +33,6 @@ const Sidebar = () => {
           </div>
          
         </CDBSidebarHeader>
-
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu >
           <div className='new-one'>
