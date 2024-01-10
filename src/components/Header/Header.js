@@ -21,9 +21,7 @@ const Header = () => {
 
       <Dropdown style={{ marginLeft: "5px" }}>
         <Dropdown.Toggle variant="light" id="dropdown-basic">
-      
         </Dropdown.Toggle>
-
         <Dropdown.Menu>
           <Dropdown.Item href="#/action-1">Action 1</Dropdown.Item>
           <Dropdown.Item href="#/action-2">Action 2</Dropdown.Item>
