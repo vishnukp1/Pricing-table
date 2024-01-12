@@ -1,27 +1,23 @@
 .new-one:hover {
-  background-color: #B6E4F9 ;
+  background-color: #b6e4f9;
   border: 1px solid blue !important;
 }
-
 
 .new-one {
   border: 1px solid rgb(199, 199, 199);
   margin-top: 22px;
   margin-bottom: 22px;
   margin-right: 1.8rem;
-  border-radius: 0 20px 20px 0; 
+  border-radius: 0 20px 20px 0;
   font-weight: bold;
 }
 
-
 .d-flexx {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.sidebar-head{
-  box-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.1); 
+.sidebar-head {
+  box-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.1);
 
   text-align: center;
   height: 13rem;
-
-
 }
